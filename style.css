@@ -1,0 +1,21 @@
+#rules, #game-result
+{
+    text-align: left;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
+.game-figure.loser
+{
+    color: red;
+}
+
+.game-figure.winner
+{
+    color: green;
+}
+
+
+
+
+#chart line {stroke: black; stroke-width:10;}

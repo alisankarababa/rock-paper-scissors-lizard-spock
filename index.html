@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata:wght@300&family=Libre+Baskerville&family=Noto+Serif:wght@100;300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="rules">
+        <div class="container">
+            <h1>RULES</h1>
+            <ul>
+                <li>
+                    <p id="win-rock">
+                        <span class="game-figure winner">Rock</span> crushes
+                        <span class="game-figure loser">Lizard</span> and
+                        <span class="game-figure loser">Scissors</span>
+                    </p>
+                </li>
+                <li>
+                    <p id="win-paper">
+                        <span class="game-figure winner">Paper</span> covers
+                        <span class="game-figure loser">Rock</span> and disproves
+                        <span class="game-figure loser">Spock</span>
+                    </p>
+                </li>
+                <li>
+                    <p id="win-scissor">
+                        <span class="game-figure winner">Scissors</span> cuts
+                        <span class="game-figure loser">Paper</span> decapitates
+                        <span class="game-figure loser">Lizard</span>
+                    </p>
+                </li>
+                <li>
+                    <p id="win-lizard">
+                        <span class="game-figure winner">Lizard</span> poisons
+                        <span class="game-figure loser">Spock</span> and eats
+                        <span class="game-figure loser">Paper</span>
+                    </p>
+                </li>
+                <li>
+                    <p id="win-spock">
+                        <span class="game-figure winner">Spock</span> smashes
+                        <span class="game-figure loser">Scissors</span> vaporizes
+                        <span class="game-figure loser">Rock</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="game">
+        <div class="container">
+            
+            <p id="game-result">GAME</p>
+
+            <img id="rock" class="user-opt" src="./assets/images/rock.png" alt="rock">
+            <img id="paper" class="user-opt" src="./assets/images/paper.png" alt="paper">
+            <img id="scissors" class="user-opt" src="./assets/images/scissors.png" alt="scissors">
+            <img id="lizard" class="user-opt" src="./assets/images/lizard.png" alt="lizard">
+            <img id="spock" class="user-opt" src="./assets/images/spock.png" alt="spock">
+            <img class="" src="./assets/images/vertical-line.png" alt="vertical-line">
+            <img id="cmp-opt" src="./assets/images/question-mark.png" alt="question-mark">
+        </div>
+    </section>
+
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
