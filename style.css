@@ -1,9 +1,25 @@
-#rules, #game-result
+body
+{
+    background-color: #393E46;
+}
+
+#rules, #game
 {
     text-align: left;
-    font-family: 'Caveat', cursive;
-    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
 }
+
+#game, #rules
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+
 
 .game-figure.loser
 {
@@ -16,6 +32,3 @@
 }
 
 
-
-
-#chart line {stroke: black; stroke-width:10;}
